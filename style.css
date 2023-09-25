@@ -1,0 +1,63 @@
+.Grid{
+background-color:rgb(25,25,25) ;
+position: fixed;
+}
+
+.button{
+	display: inline-block;
+	font-style:italic;
+	font-stretch:extra-expanded;
+	padding: 0.3em 1.2em;
+	margin: 0 0.1em 0.1em 0;
+	border: 0.16em solid rgba(255,255,255,0);
+	border-color: #0c0809;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: 700;
+	font-variant-caps:all-petite-caps;
+	font-size: 25px;
+	color: #000000;
+	text-shadow: 0 0.1em 0.5em rgb(0, 255, 221);
+	text-align: center;
+	background-color: antiquewhite;
+	transition-delay:0.1s;
+	transition-duration:0.5s;
+	user-select:none;
+	transition-timing-function:cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.button:hover{
+color:#5f033e;
+font-weight:700;
+font-size: 25px;
+letter-spacing: 10px;
+}
+.text{display: inline-block;
+	border-color:red;
+	font-style:italic;
+	font-stretch:extra-expanded;
+	padding: 0.3em 1.2em;
+	margin: 0 0.1em 0.1em 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: 700;
+	font-variant-caps:all-petite-caps;
+	font-size: 25px;
+	color: #e91e6300;
+	text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+	text-align: center;
+	user-select:none;
+	
+
+
+}
+.text:hover{
+	transition-delay:0.1s;
+	transition-duration:0.5s;
+	transition-timing-function:cubic-bezier(0.68, -0.55, 0.27, 1.55);
+color:#5f033e;
+font-weight:700;
+font-size: 25px;
+letter-spacing: 1px;
+}

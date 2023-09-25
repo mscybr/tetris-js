@@ -1,0 +1,54 @@
+<html><head>
+		<title>Menu</title>
+				<link rel="stylesheet" type="text/css" href="style.css">		
+		<script type="text/javascript" src="Interface.js"> </script>
+		<script type="text/javascript" src="Main.js"> </script>
+	</head>
+	<body style="
+    background: black;
+">
+	<a style="position: relative;left: 50px;background-color: #000000;color: #00ffaf;border-color: #00ff76;left: 40%;top: 100px;" class="button">S T A R T</a>
+   	<a class="button" style="position: relative;left: 50px;background-color: #000000;color: #2900ff;border-color: #003eff;left: 40%;top: 100px;TEXT-SHADOW: 0 0.15em 0.25em rgb(0, 65, 255);">S C O R E S</a>   
+    <script type="text/javascript">
+    var Colors= [255,255,255]
+var DownUp = 0
+var currentGame;
+var MyName = document.querySelector("footer > a")
+var StartBut=document.querySelectorAll("a")[0]
+// function RAINBOWWW (){
+    
+//     if(DownUp == 0){
+//         if(Colors[0]>0){
+//             Colors[0]--
+//             }
+//         else if (Colors[1]>0){
+//             Colors[1]--
+//             }
+//         else if (Colors[2]>0){
+//             Colors[2]--
+//             }
+//         else 
+//             DownUp=1
+//     }
+//     else
+//     if(DownUp==1){
+//         if(Colors[0]<255){
+//                 Colors[0]++
+//                 }
+//             else if (Colors[1]<255){
+//                 Colors[1]++
+//                 }
+//             else if (Colors[2]<255){
+//                 Colors[2]++
+//                 }
+//             else 
+//                 DownUp=0
+// 	}
+// 		MyName.style.color = "rgb("+Colors[0]+","+Colors[1]+","+Colors[2]+")"
+// }
+// var rainy = setInterval(RAINBOWWW,10)
+StartBut.addEventListener("click",function(){
+    currentGame = new Game()
+})
+    </script>
+</body></html>
